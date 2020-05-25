@@ -50,3 +50,7 @@ footer{
 footer .row:last-child{
   background-color: black
 }
+
+img{
+  max-width: 90px;
+}
