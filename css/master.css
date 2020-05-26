@@ -9,9 +9,81 @@
 /* regole di debug */
 [class*="col-"] {
   height: 100%;
-  /* border: solid 1px #000; */
+}
+
+.fas fa-star{
+  padding-bottom: 4%;
 
 }
+
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.divider-custom.divider-light .divider-custom-line {
+  background-color: #fff
+}
+
+
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50 !important;
+  }
+
+.divider-custom.divider-light .divider-custom-icon {
+  color: #fff !important;
+}
+
+.divider-custom .divider-custom-icon {
+  color: #2c3e50 !important;
+  font-size: 2rem;
+  }
+
+.divider-custom-icon{
+  margin: 0 1%;
+}
+
+
+
+/* header */
+
+header {
+  background-color: #1a252f;
+}
+
+header .navbar-default .navbar-nav > li > a {
+  color: green;
+}
+
+header .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: blue;
+}
+
+header .navbar-default {
+  background-color: transparent;
+}
+
+/* sezione start-bootstrap */
+
+.start-bootstrap{
+  background-color: #1ABC9C;
+  padding: 3% 0;
+}
+
+
+
+/* sezione portfolio */
 
 .portfolio img{
   max-width: 100%;
@@ -25,40 +97,22 @@
 }
 
 
-.navbar{
-  background-color: #2c3e50;
+.portfolio i{
+  color: #2c3e50
 }
 
-/* section{
-  padding: 0 6%;
-} */
-
-/* header{
-  height: 200px;
-} */
-
-
-.fas{
-    height: 20%;
-    padding: 2%
-  }
-
-  .portfolio i{
-    color: #2c3e50
-  }
-
-.start-bootstrap{
-  height: 320px;
-  background-color: #1ABC9C;
-  padding-top: 3%;
-
-}
 
 .portfolio{
   background-color: white;
   padding: 4% 13%
 
 }
+
+.portfolio .divider-custom.divider-light .divider-custom-line{
+  background-color: #1a252f
+}
+
+/* sezione about */
 
 .about{
   background-color: #1ABC9C;
@@ -71,12 +125,8 @@
   text-align: center;
 }
 
-.about i{
-  padding-left: 49%;
-  padding-bottom: 4%
-}
 
-
+/* sezione contact-me */
 
 .contact-me{
   background-color: white;
@@ -91,16 +141,31 @@
   color: #2c3e50
 }
 
+.contact-me .divider-custom.divider-light .divider-custom-line{
+  background-color: #1a252f
+}
+
+#contatti .form-group input,
+#contatti .form-group textarea {
+  border: none;
+  border-bottom: solid 1px #ccc;
+  background-color: pink;
+  box-shadow: none;
+}
+#contatti .btn-default {
+  color: green;
+}
+
+/* footer */
+
 footer{
   height: 200px;
   background-color: #2c3e50
 }
 
-
 .social li {
-    display: inline-block;
-    padding-right: 2%;
-  }
+  display: inline-block;
+}
 
 img{
   max-width: 90px;
