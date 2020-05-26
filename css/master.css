@@ -2,55 +2,116 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:'Nunito', sans-serif; color: white;
+  font-weight: bold;
 }
 
 /* regole di debug */
 [class*="col-"] {
   height: 100%;
-  border: solid 1px #000;
+  /* border: solid 1px #000; */
+
 }
 
-.row {
-  height: 200px;
+.portfolio img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: 3% 0
+}
+
+.portfolio h1{
+  color: #2c3e50
+}
+
+
+.navbar{
+  background-color: #2c3e50;
 }
 
 /* section{
   padding: 0 6%;
 } */
 
-header{
+/* header{
   height: 200px;
-  background-color: #333
-}
+} */
+
+
+.fas{
+    height: 20%;
+    padding: 2%
+  }
+
+  .portfolio i{
+    color: #2c3e50
+  }
 
 .start-bootstrap{
-  height: 200px;
-  background-color: #1ABC9C
+  height: 320px;
+  background-color: #1ABC9C;
+  padding-top: 3%;
+
 }
 
 .portfolio{
   background-color: white;
-  height: 200px;
+  padding: 4% 13%
+
 }
 
 .about{
   background-color: #1ABC9C;
-  height: 200px
+  height: 300px;
+  padding: 2% 2%;
+
 }
+
+.about h1{
+  text-align: center;
+}
+
+.about i{
+  padding-left: 49%;
+  padding-bottom: 4%
+}
+
+
 
 .contact-me{
   background-color: white;
-  height: 200px;
+  padding: 4% 10%;
+}
+
+.contact-me h1{
+  color: #2c3e50
+}
+
+.contact-me i{
+  color: #2c3e50
 }
 
 footer{
   height: 200px;
   background-color: #2c3e50
 }
-footer .row:last-child{
-  background-color: black
-}
+
+
+.social li {
+    display: inline-block;
+    padding-right: 2%;
+  }
 
 img{
   max-width: 90px;
+}
+
+.copyright .row{
+  height: 50px;
+  line-height: 3.5;
+  background-color: #1a252f
+}
+
+.copyright{
+  width: 100%
 }
