@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Nunito', sans-serif; color: white;
+  font-family:'Nunito', sans-serif;
   font-weight: bold;
 }
 
@@ -28,12 +28,9 @@ h1{
   align-items: center;
 }
 
-
 .divider-custom.divider-light .divider-custom-line {
   background-color: #fff
 }
-
-
 
 .divider-custom .divider-custom-line {
   width: 100%;
@@ -58,7 +55,6 @@ h1{
 }
 
 
-
 /* header */
 
 header {
@@ -75,20 +71,23 @@ header .navbar-default .navbar-nav > li > a:focus,
 }
 
 header .navbar-default {
-  background-color: transparent;
+  background-color: #2c3e50;
   border-color: transparent;
-
 }
 
+.navbar-header .navbar-brand {
+    color: white;
+    margin-left: 5%
+  }
 
 .navbar-default {
     background-color: #f8f8f8;
+    color: white;
   }
 
 
-.navbar .navbar-default .navbar-header{
-  color: white;
-  position: fixed;
+nav .navbar .navbar-default{
+
   z-index: 999;
 }
 
@@ -96,7 +95,8 @@ header .navbar-default {
 
 .start-bootstrap{
   background-color: #1ABC9C;
-  padding: 3% 0;
+  padding: 6% 0;
+  color: white;
 }
 
 
@@ -135,6 +135,7 @@ header .navbar-default {
 .about{
   background-color: #1ABC9C;
   padding: 2% 2%;
+  color: white;
 }
 
 .about h1{
@@ -153,7 +154,8 @@ header .navbar-default {
   margin-left: 45%;
   margin-top: 2%;
   background-color: #1ABC9C;
-  color:white
+  color:white;
+  padding: 1% 1%;
 }
 /* sezione contact-me */
 
@@ -189,6 +191,7 @@ header .navbar-default {
 .contact-me button{
   background-color: #1ABC9C;
   color:white;
+  padding: 1% 1.5%;
 }
 
 .contact-me input{
@@ -208,7 +211,8 @@ header .navbar-default {
 /* footer */
 
 footer{
-  background-color: #2c3e50
+  background-color: #2c3e50;
+  color: white;
 }
 
 .social li {
@@ -232,12 +236,35 @@ img{
 }
 
 h4{
-  font-size: 2.5rem
+  font-size: 2.5rem;
+  padding-top: 4%;
 }
 
 
-a {
-    color: #1abc9c;
-    text-decoration: none;
-    background-color: transparent
+a{
+  color: #1abc9c;
+  text-decoration: none;
+  background-color: transparent
+}
+
+
+/* regole responsive */
+
+@media screen and (max-width: 991px){
+  .about{
+    text-align: center;
+    padding: 5% 2%;
   }
+
+  .about p{
+    margin-left: 0;
+  }
+
+  .about button{
+    margin-left: 0;
+  }
+
+  .start-bootstrap{
+    padding-top: 22%
+  }
+}
