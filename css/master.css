@@ -16,6 +16,10 @@
 
 }
 
+h1{
+  font-size: 3.5rem
+}
+
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
@@ -73,12 +77,20 @@ header .navbar-default .navbar-nav > li > a:focus,
 header .navbar-default {
   background-color: transparent;
   border-color: transparent;
+
 }
 
 
 .navbar-default {
     background-color: #f8f8f8;
   }
+
+
+.navbar .navbar-default .navbar-header{
+  color: white;
+  position: fixed;
+  z-index: 999;
+}
 
 /* sezione start-bootstrap */
 
@@ -98,8 +110,8 @@ header .navbar-default {
   margin: 3% 0
 }
 
-.portfolio h1{
-  color: #2c3e50
+.portfolio .text-center h1{
+  color: #2c3e50;
 }
 
 
@@ -110,12 +122,12 @@ header .navbar-default {
 
 .portfolio{
   background-color: white;
-  padding: 4% 13%
+  padding: 4% 13%;
 
 }
 
 .portfolio .divider-custom.divider-light .divider-custom-line{
-  background-color: #1a252f
+  background-color: #1a252f;
 }
 
 /* sezione about */
@@ -151,11 +163,11 @@ header .navbar-default {
 }
 
 .contact-me h1{
-  color: #2c3e50
+  color: #2c3e50;
 }
 
 .contact-me i{
-  color: #2c3e50
+  color: #2c3e50;
 }
 
 .contact-me .divider-custom.divider-light .divider-custom-line{
@@ -201,6 +213,8 @@ footer{
 
 .social li {
   display: inline-block;
+  font-size: 30px;
+  margin: 0 2%
 }
 
 img{
@@ -216,6 +230,11 @@ img{
 .copyright{
   width: 100%
 }
+
+h4{
+  font-size: 2.5rem
+}
+
 
 a {
     color: #1abc9c;
