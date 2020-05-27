@@ -62,7 +62,7 @@ header {
 }
 
 header .navbar-default .navbar-nav > li > a {
-  color: green;
+  color: white;
 }
 
 header .navbar-default .navbar-nav > li > a:focus,
@@ -72,7 +72,13 @@ header .navbar-default .navbar-nav > li > a:focus,
 
 header .navbar-default {
   background-color: transparent;
+  border-color: transparent;
 }
+
+
+.navbar-default {
+    background-color: #f8f8f8;
+  }
 
 /* sezione start-bootstrap */
 
@@ -116,16 +122,27 @@ header .navbar-default {
 
 .about{
   background-color: #1ABC9C;
-  height: 300px;
   padding: 2% 2%;
-
 }
 
 .about h1{
   text-align: center;
 }
 
+.shift-left{
+  margin-left:33%
+}
 
+.shift-left-2{
+  margin-left: 4%
+}
+
+.about button{
+  margin-left: 45%;
+  margin-top: 2%;
+  background-color: #1ABC9C;
+  color:white
+}
 /* sezione contact-me */
 
 .contact-me{
@@ -152,14 +169,33 @@ header .navbar-default {
   background-color: pink;
   box-shadow: none;
 }
+
 #contatti .btn-default {
   color: green;
+}
+
+.contact-me button{
+  background-color: #1ABC9C;
+  color:white;
+}
+
+.contact-me input{
+  border-color: transparent;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: none
+}
+
+.contact-me textarea{
+  border-color: transparent;
+  border-radius: transparent;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: none
+
 }
 
 /* footer */
 
 footer{
-  height: 200px;
   background-color: #2c3e50
 }
 
@@ -180,3 +216,9 @@ img{
 .copyright{
   width: 100%
 }
+
+a {
+    color: #1abc9c;
+    text-decoration: none;
+    background-color: transparent
+  }
